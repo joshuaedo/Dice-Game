@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  margin: auto;
   text-align: center;
 }
 
@@ -10,25 +9,44 @@
 }
 
 body {
-  background-color: #2E383F;
+  background: #2C3333;
+  color: #fff;
 }
 
 h1 {
   margin: 30px;
   font-family: 'Merriweather', serif;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 5px 0 #2C3333;;
   font-size: 6rem;
-  color: #4ECCA3;
 }
 
 p {
   font-size: 2.8rem;
-  color: #4ECCA3;
   font-family: 'Open Sans', sans-serif;
 }
 
 img {
   width: 75%;
+}
+
+footer p{
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 2rem;
+  }
+
+  h1 {
+    margin: 40px;
+    font-size: 3rem;
+  }
+
+  img {
+    width: 65%;
+  }
+  
 }
 
 
